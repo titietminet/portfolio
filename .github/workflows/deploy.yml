@@ -14,5 +14,6 @@ jobs:
                 username: ${{ secrets.SERVER_USER }}
                 key: ${{ secrets.SSH_PRIVATE_KEY }}
                 script: |
+                  git config --global --add safe.directory /var/www/portfolio.titouan-rault.fr
                   cd /var/www/portfolio.titouan-rault.fr/
                   git pull origin main
