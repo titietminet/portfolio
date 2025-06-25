@@ -1,0 +1,78 @@
+main {
+display: flex;
+  gap: 5vw;
+  padding-top: 30vh;
+}
+
+#go h2 {
+font-size: 20px;
+}
+
+#go {
+position: absolute;
+  padding-top: 18vh;
+}
+
+#go a {
+transition: all 0.5s ease;
+}
+
+#go a:hover {
+font-size: 20px;
+}
+
+.contenu {
+padding-left: 30vw;
+}
+
+main h1 {
+display: block;
+  text-align: center;
+}
+
+img {
+width: 100%;
+  height: auto;
+  margin-top: 10vh;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
+}
+
+h3 {
+padding-top: 7vh;
+  padding-bottom: 1.5vh;
+}
+
+.contenu ul {
+padding: 0px 40px;
+  list-style-type: disc;
+}
+
+@media screen and (max-width: 992px) {
+
+main {
+flex-direction: column;
+}
+#go {
+position: relative;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+  border-bottom: 1px solid black;
+}
+main {
+padding-top: 15vh;
+}
+.contenu {
+padding-left: 0vh;
+}
+h1 {
+font-size: 20px;
+}
+main h1 {
+padding-bottom: 5vh;
+}
+
+h3 {
+padding-top: 4vh;
+}
+}
