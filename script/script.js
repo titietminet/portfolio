@@ -29,7 +29,7 @@ function typeWriter(text, elementId, delay = 100) {
 }
 
 if (document.getElementById("txtauto") != null) {
-  typeWriter('titouan rault<br>19 ans<br>développeur informatique full stack<br>2eme année BUT informatique<br><a class="gocontact" href="contact.html">contact</a>', 'txtauto', 20);
+  typeWriter('titouan rault<br>20 ans<br>développeur informatique full stack<br>3eme année BUT informatique<br><a class="gocontact" href="contact.html">contact</a>', 'txtauto', 20);
 }
 
 window.addEventListener("scroll", function (e) {
